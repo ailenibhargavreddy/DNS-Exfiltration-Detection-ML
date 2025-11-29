@@ -1,0 +1,21 @@
+# Ignore dataset folders
+Benign/
+attack light/
+attack heavy/
+dataset/
+data/
+
+# Ignore large files
+*.csv
+*.pcap
+*.zip
+*.rar
+*.tar
+*.7z
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Jupyter temp files
+.ipynb_checkpoints/
