@@ -42,4 +42,63 @@ We used:
 ## 🚀 How to Run the Project
 
 1. Clone the repository  
-2. Install dependencies  
+2. Install dependencies
+3. 
+Each folder must contain CSV feature files from the dataset.
+
+---
+
+## ▶️ How to Run the Project
+
+1. Download the dataset from the CIC website  
+2. Extract the CSV files into the correct folders  
+3. Open the notebook:
+
+
+4. Run all cells sequentially  
+5. The model will train and show:
+   - Accuracy  
+   - Classification report  
+   - Confusion matrix  
+
+---
+
+## 📈 Results
+
+Random Forest (best model):
+
+- **Accuracy:** ~71%
+- **High recall** for heavy attacks
+- **Model handles imbalanced classes reasonably well**
+
+Confusion matrix and metrics are available inside the notebook.
+
+---
+
+## 🔒 Why Dataset Is Not Included
+
+The dataset belongs to the **Canadian Institute for Cybersecurity (CIC)**.
+
+You *must not* upload:
+- CSVs  
+- PCAPs  
+- Benign / attack folders  
+
+Only a small sample (5–10 rows) is legally allowed.
+
+---
+
+## 📚 Citation (Required for Research Use)
+
+
+---
+
+## 📝 License
+
+This project is for **educational and research purposes only**.  
+Dataset is owned by **CIC**.  
+Model and code created by **Bhargav Reddy**.
+
+---
+
+
